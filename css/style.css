@@ -1,0 +1,177 @@
+body {
+	background-color: #F2F5F7;
+	font-family: 'Open Sans',Arial,sans-serif;
+}
+
+.container {
+	width: 94%;
+	margin: 0 auto;
+}
+
+.cabecalhoPrincipal {
+	background-color: #FFF;
+	padding: 20px 0;
+}
+
+.cabecalhoPrincipal-titulo {
+	font-weight: bold;
+	font-size: 1.7em;
+}
+
+.cabecalhoPrincipal-titulo a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.cabecalhoPrincipal-nav-link {
+	padding: 10px;
+	margin-bottom: 10px;
+	color: 	#1E90FF;
+	background-color: #FFF;
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+
+	border-bottom: 1px solid#1E90FF;
+}
+.principal{
+	padding: 0.5em 0 0 0;
+	background: #fefefe;
+	width: 940px;
+	margin: 0px auto;
+	font-size: 1.1em;
+}
+.principal p{
+	padding: 0 20px;
+	align-content: center;
+}
+.foto1{
+	width:150px;
+	float:left;
+	margin:0px 20px 20px 20px;
+}
+.foto2{
+	width: 250px;
+	float:right;
+	margin:0px 20px 20px 20px;
+}
+.foto3{
+	width: 250px;
+	float: left;
+	margin:0px 20px 20px 20px;
+}
+
+.conteudoPrincipal {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.rodapePrincipal {
+	background-color: #4682B4;
+	padding-top: 20px;
+}
+.rodapePrincipal-patrocinadores{
+	margin-top: 30px;
+	background: #FFFFFF;
+	padding: 20px 0;
+}
+@media(min-width: 769px) {
+
+	.container {
+		width: 85%;	
+	}
+
+	.subtitulo {
+		text-align: left;
+	}
+
+	.cabecalhoPrincipal-nav-link {
+		border-radius: 10px;
+		border: 1px solid #1E90FF;
+	}
+
+	.cabecalhoPrincipal-nav-link:hover {
+		color: #FFF;
+		background-color: #1E90FF;
+	}
+
+	.cabecalhoPrincipal-titulo {
+		margin: 0;
+	}
+
+	.cabecalhoPrincipal-nav {
+		width: auto;
+	}
+
+	.cabecalhoPrincipal-nav-link {
+		width: auto;
+		margin: 0 0 0 10px;
+	}
+
+	.rodapePrincipal-contatoForm {
+		margin-top: 0;
+		text-align: left;
+	}
+
+	.conteudoPrincipal-cursos-link:nth-child(3n) {
+		margin-right: 0;
+	}
+
+	.conteudoPrincipal-cursos-link:nth-child(3n+1) {
+		margin-left: 0;
+	}
+
+}
+/*css da pagina de contato*/
+.contato {
+	width: 940px;
+	margin: 40px auto;
+}
+.contato label, .input-group legend {
+	display: block;
+	margin: 0 0 5px;
+	font-size: 20px;
+}
+.campo-padrao, textarea {
+	display: block;
+	margin: 0 0 30px;
+	padding: 10px 20px;
+	width: 50%;
+	border: 1px solid #aaa;
+}
+form{
+	display: flex;
+	flex-flow: column wrap;
+	margin: 40px auto;
+	width: 50%;
+	align-content: center;
+}
+form label, form legend{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+.inputPadrao{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+.enviar{
+	width: 50%;
+	padding: 15px 0;
+	background: #1E90FF;
+	color:white;
+	font-weight: bold;
+	font-size: 18px;
+	border:none;
+	border-radius: 5px;
+	transition: 400ms all;
+	cursor: pointer;
+}
+.enviar:hover{
+	background: #6495ED;
+}
+/*css da pagina de videos*/
+.videos{
+	margin: 30px 30px 30px 30px;
+}
