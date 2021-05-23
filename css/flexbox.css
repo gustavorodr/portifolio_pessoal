@@ -48,3 +48,8 @@
     align-items: center;
     justify-content: space-between;
 }
+/*css da parte de projetos*/
+.conteudoPrincipal-projetos{
+	display: flex;
+    flex-flow: column wrap;
+}

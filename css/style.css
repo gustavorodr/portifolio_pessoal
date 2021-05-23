@@ -175,3 +175,30 @@ form label, form legend{
 .videos{
 	margin: 30px 30px 30px 30px;
 }
+/*css da parte de projetos*/
+.conteudoPrincipal-projetos{
+	margin: 30px auto;
+	width: 50%;
+	align-content: center;
+}
+.conteudoPrincipal-projetos h2{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.3em;
+	margin-bottom: 20px;
+}
+.conteudoPrincipal-projetos ul{
+	margin-bottom: 30px;
+}
+.conteudoPrincipal-projetos h3{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1em;
+	margin:10px 0 0 20px;
+}
+.conteudoPrincipal-projetos p{
+	margin:5px 0 0 20px;
+}
+.conteudoPrincipal-projetos p::before{
+	content: "•	";
+}
